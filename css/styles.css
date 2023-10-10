@@ -1,0 +1,96 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #000000;
+}
+
+.fullpage {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+}
+.fullpage-content {
+    color: #ffffff;
+    opacity: 0;
+}
+
+/* fancybox */
+.fancy-inline {
+    display: none;
+}
+.fancy-inline .fancybox-close-small {
+    color: #ccc;
+}
+
+/* #slide-1 */
+#slide-1 {
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+    background-image: url('../images/bg-construction-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+
+.brand h1 {
+    letter-spacing: 0.20rem;
+}
+.brand .hline {
+    opacity: 0;
+}
+.brand .tagline {
+    text-transform: uppercase;
+    letter-spacing: 0.16rem;
+}
+
+/* #slide-2 */
+#slide-2 {
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+    background-image: url('../images/bg-construction-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+
+/* #slide-3 */
+#slide-3 {
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+    background-image: url('../images/bg-construction-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+
+/* #slide-4 */
+#slide-4 {
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+    background-image: url('../images/bg-construction-6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+
+/* #slide-5 */
+#slide-5 {
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+    background-image: url('../images/bg-construction-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
