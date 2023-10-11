@@ -73,9 +73,55 @@ jQuery(function($) {
     .setAnime(tl_s3)
     .addTo(controller)
 
+    // #slide-4
+    var tl_s4 = anime.timeline()
+    tl_s4.add({
+        targets: '#projects',
+        duration: 800,
+        easing: 'easeOutSine',
+        translateY: [-200, 0],
+        opacity: [0, 1]
+    })
+    .add({
+        targets: '.fancy-project',
+        easing: 'easeOutExpo',
+        translateY: [60, 0],
+        opacity: [0, 1],
+        delay: anime.stagger(200)
+    })
+
+    var scene_4 = new ScrollMagic.Scene({
+        triggerElement: '#slide-4',
+        duration: '50%'
+    })
+    .setAnime(tl_s4)
+    .addTo(controller)
+
+    // #slide-5
+    var tl_s5 = anime.timeline()
+    tl_s5.add({
+        targets: '#contact-us',
+        duration: 800,
+        easing: 'easeOutSine',
+        translateY: [-200, 0],
+        opacity: [0, 1]
+    })
+
+    var scene_5 = new ScrollMagic.Scene({
+        triggerElement: '#slide-5',
+        duration: '50%'
+    })
+    .setAnime(tl_s5)
+    .addTo(controller)
+
     // fancybox
-    $('a[data-fancybox]').fancybox({
-        hideScrollbar: false
+    Fancybox.defaults.hideScrollbar = false
+    Fancybox.defaults.Hash = false
+    Fancybox.bind('[data-fancybox]', { })
+
+    $('.fancy-project').on('click', function(e) {
+        e.preventDefault()
+        Fancybox.show(projects[$(this).data('project')])
     })
 })
 

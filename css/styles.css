@@ -20,9 +20,6 @@ body {
 .fancy-inline {
     display: none;
 }
-.fancy-inline .fancybox-close-small {
-    color: #ccc;
-}
 
 /* #slide-1 */
 #slide-1 {

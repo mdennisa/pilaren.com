@@ -11,7 +11,7 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -93,7 +93,7 @@
             <h2 class="inline-block text-lg font-bold pb-3 border-b-2 border-yellow-400 mb-4">Our Services</h2>
             <p>
                 PT. PILAREN Supported by expertise offers a wide range of services as General Contractor.
-                <br>We have practical experiences in constructions:
+                We have practical experiences in constructions:
                 <ul class="list-disc list-inside mt-4">
                     <li>Pilling Works</li>
                     <li>Dredging Works</li>
@@ -109,16 +109,23 @@
             </p>
         </div>
     </div>
-    <div class="fullpage flex justify-center items-center" id="slide-4">
-        <div class="fullpage-content max-w-3xl p-6 backdrop-blur-sm bg-black/70 opacity-100" id="project">
+
+    <div class="fullpage flex flex-col justify-center items-center" id="slide-4">
+        <div class="fullpage-content max-w-3xl p-6 backdrop-blur-sm bg-black/70 min-w-full md:min-w-[50%]" id="projects">
             <h2 class="inline-block text-lg font-bold pb-3 border-b-2 border-yellow-400 mb-4">Projects</h2>
             <p>
                 Our Selected Projects
             </p>
         </div>
+        <div class="grid grid-cols-1 gap-1 min-w-full md:min-w-[50%] mt-1">
+            <a href="#" data-project="project-1" class="fancy-project block py-3 px-6 backdrop-blur-sm bg-black/70 text-slate-300 hover:indent-3 hover:text-white transition-all">General Contractor</a>
+            <a href="#" data-project="project-2" class="fancy-project block py-3 px-6 backdrop-blur-sm bg-black/70 text-slate-300 hover:indent-3 hover:text-white transition-all">Jetty</a>
+            <a href="#" data-project="project-3" class="fancy-project block py-3 px-6 backdrop-blur-sm bg-black/70 text-slate-300 hover:indent-3 hover:text-white transition-all">Tank Farm &amp; Pipe Rack</a>
+        </div>
     </div>
+
     <div class="fullpage flex justify-center items-center" id="slide-5">
-        <div class="fullpage-content max-w-3xl p-6 backdrop-blur-sm bg-black/70 opacity-100">
+        <div class="fullpage-content max-w-3xl p-6 backdrop-blur-sm bg-black/70" id="contact-us">
             <h2 class="inline-block text-lg font-bold pb-3 border-b-2 border-yellow-400 mb-4">Contact Us</h2>
             <p>
                 <strong>Head Office</strong>
@@ -135,14 +142,25 @@
         </div>
     </div>
 
+    <footer class="min-w-full px-6 py-4 text-center text-slate-400">
+        &copy; 2023-2024 Pilaren. All rights reserved.
+    </footer>
+
      <!-- jQuery & Plugins -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/scrollmagic@2.0.7/scrollmagic/uncompressed/ScrollMagic.min.js"></script>
     <script src="js/animation.anime.min.js"></script>
     <!-- Fancybox -->
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <!-- Scripts -->
+    <script>
+        var projects
+    </script>
+    <script type="module">
+        import data from './js/data.js'
+        projects = data
+    </script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
