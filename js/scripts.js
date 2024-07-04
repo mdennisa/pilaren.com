@@ -97,6 +97,23 @@ jQuery(function($) {
     .setAnime(tl_s4)
     .addTo(controller)
 
+    // #slide-4b
+    var tl_s4b = anime.timeline()
+    tl_s4b.add({
+        targets: '#portfolio',
+        duration: 1000,
+        easing: 'easeOutSine',
+        translateY: [-200, 0],
+        opacity: [0, 1]
+    })
+
+    var scene_4b = new ScrollMagic.Scene({
+        triggerElement: '#slide-4b',
+        duration: '50%'
+    })
+    .setAnime(tl_s4b)
+    .addTo(controller)
+
     // #slide-5
     var tl_s5 = anime.timeline()
     tl_s5.add({

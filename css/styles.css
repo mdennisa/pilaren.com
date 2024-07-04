@@ -21,6 +21,10 @@ body {
     display: none;
 }
 
+.has-iframe .fancybox__content {
+    padding: 0.5rem;
+}
+
 /* #slide-1 */
 #slide-1 {
     position: relative;
@@ -74,6 +78,18 @@ body {
     height: auto;
     min-height: 100vh;
     background-image: url('../images/bg-construction-6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+
+/* #slide-4b */
+#slide-4b {
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+    background-image: url('../images/bg-construction-5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
