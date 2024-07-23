@@ -231,6 +231,45 @@ const data = {
             src: `${img_url}palm-oil-3.jpg`
         },
         {
+            src: `${img_url}palm-oil-4.jpg`
+        },
+        {
+            src: `${img_url}palm-oil-5.jpg`
+        },
+        {
+            src: `${img_url}palm-oil-6.jpg`
+        },
+        {
+            src: `${img_url}palm-oil-7.jpg`
+        },
+        {
+            src: `${img_url}palm-oil-8.jpg`
+        },
+        {
+            src: `${img_url}palm-oil-9.jpg`
+        },
+        {
+            src: `${img_url}palm-oil-10.jpg`
+        },
+        {
+            src: `${img_url}palm-oil-11.jpg`
+        },
+        {
+            src: `${img_url}palm-oil-12.jpg`
+        },
+        {
+            src: `${img_url}palm-oil-ebt-1.jpg`,
+            caption: "Empty Brench Treatment"
+        },
+        {
+            src: `${img_url}palm-oil-ebt-2.jpg`,
+            caption: "Empty Brench Treatment"
+        },
+        {
+            src: `${img_url}palm-oil-ebt-3.jpg`,
+            caption: "Empty Brench Treatment"
+        },
+        {
             src: `${img_url}palm-oil-wtp1.jpg`,
             caption: "Water Treatment Plant"
         },
@@ -245,6 +284,22 @@ const data = {
         {
             src: `${img_url}palm-oil-wtp4.jpg`,
             caption: "Water Treatment Plant"
+        },
+        {
+            src: `${img_url}palm-oil-pos1.jpg`,
+            caption: "Palm Oil Storage"
+        },
+        {
+            src: `${img_url}palm-oil-pos2.jpg`,
+            caption: "Palm Oil Storage"
+        },
+        {
+            src: `${img_url}palm-oil-pos3.jpg`,
+            caption: "Palm Oil Storage"
+        },
+        {
+            src: `${img_url}palm-oil-pos4.jpg`,
+            caption: "Palm Oil Storage"
         },
         {
             src: `${img_url}palm-oil-swro-1.jpg`
@@ -282,7 +337,97 @@ const data = {
         {
             src: `${img_url}palm-oil-swro-12.jpg`
         },
-    ]
+    ],
+    'project-pilling': [
+        {
+            src: `${img_url}pilling-1.jpeg`
+        },
+        {
+            src: `${img_url}pilling-2.jpeg`
+        },
+        {
+            src: `${img_url}pilling-3.jpeg`
+        },
+        {
+            src: `${img_url}pilling-4.jpeg`
+        },
+        {
+            src: `${img_url}pilling-5.jpeg`
+        },
+        {
+            src: `${img_url}pilling-6.jpeg`
+        },
+        {
+            src: `${img_url}pilling-7.jpeg`
+        },
+        {
+            src: `${img_url}pilling-8.jpeg`
+        },
+        {
+            src: `${img_url}pilling-9.jpeg`
+        },
+        {
+            src: `${img_url}pilling-10.jpeg`
+        },
+        {
+            src: `${img_url}pilling-11.jpeg`
+        },
+        {
+            src: `${img_url}pilling-12.jpeg`
+        },
+        {
+            src: `${img_url}pilling-13.jpeg`
+        },
+        {
+            src: `${img_url}pilling-14.jpeg`
+        },
+        {
+            src: `${img_url}pilling-15.jpeg`
+        },
+        {
+            src: `${img_url}pilling-16.jpeg`
+        },
+        {
+            src: `${img_url}pilling-17.jpeg`
+        },
+    ],
+    'project-bore-pile': [
+        {
+            src: `${img_url}bore-pile-1.jpeg`
+        },
+        {
+            src: `${img_url}bore-pile-2.jpeg`
+        },
+        {
+            src: `${img_url}bore-pile-3.jpeg`
+        },
+        {
+            src: `${img_url}bore-pile-4.jpeg`
+        },
+    ],
+    'project-workshop': [
+        {
+            src: `${img_url}workshop-1.jpg`
+        },
+        {
+            src: `${img_url}workshop-2.jpg`
+        },
+        {
+            src: `${img_url}workshop-3.jpg`
+        },
+        {
+            src: `${img_url}workshop-4.jpg`
+        },
+        {
+            src: `${img_url}workshop-5.png`
+        },
+        {
+            src: `${img_url}workshop-6.png`
+        },
+        {
+            src: `${img_url}workshop-7.png`
+        },
+    ],
 }
 
 export default data
