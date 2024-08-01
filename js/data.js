@@ -170,9 +170,9 @@ const data = {
         },
     ],
     'project-steel': [
-        {
-            src: `${img_url}steel-1.jpg`
-        },
+        // {
+        //     src: `${img_url}steel-1.jpg`
+        // },
         {
             src: `${img_url}steel-2.jpg`
         },
